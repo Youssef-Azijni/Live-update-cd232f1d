@@ -2,6 +2,7 @@ var diameter = document.querySelector('input');
 var perimeter = document.querySelector('h2');
 var timePrint = document.querySelector ( 'h3');
 var time = new Date();
+var intervalID = window.setInterval(1.0, );
 
 function omtrek() {
     const pi = 3.141592;
